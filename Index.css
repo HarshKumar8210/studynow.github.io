@@ -1,0 +1,42 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-color: white;
+  font-family:Arial;
+}
+
+.mainicon{
+  position: absolute;
+  left: 40px;
+  top: 42px;
+  height: 280px;
+  width: 280px;
+}
+
+.getstarteddiv{
+  background: rgb(127,109,225);
+  opacity: 0.9;
+  height: 200px;
+  position: absolute;
+  top:  372px;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+
+
+.getstarted{
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  align-items: right;
+  padding: 15px 35px 15px 35px;
+  background: white;
+  color: rgb(127,109,225);
+  border-radius:40px;
+  border: none;
+}
+

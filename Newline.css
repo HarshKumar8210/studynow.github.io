@@ -1,0 +1,54 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.span1{
+  background: black;
+  height: 5px;
+  width: 33px;
+  z-index: 5;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.span2{
+  background: black;
+  height: 5px;
+  width: 33px;
+  z-index: 5;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.span3{
+  background: black;
+  height: 5px;
+  width: 33px;
+  z-index: 5;
+  position: absolute;
+  top: 30px;
+  right: 10px;
+}
+
+.checkbox{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  z-index: 7;
+}
+
+.checkbox:checked ~ .menuitem{
+  transform: translatex(0);
+  transition: 0.4s ease;
+}
+
+.menuitem{
+  background: #3cc8eb;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  transform: translatex(-200%);
+}
